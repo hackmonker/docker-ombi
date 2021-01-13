@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-./ombi
-./Requestrr.WebApi
+./ombi &
+./Requestrr.WebApi &
