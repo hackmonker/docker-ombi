@@ -12,9 +12,7 @@ ENV HOME="/config"
 
 RUN \
  apt-get update && \
- apt-get install -y \
-	libicu60 \
-	libssl1.0 && \
+ apt-get install -y libicu60 && apt-get install -y libssl1.0 && \
  echo "**** install ombi ****" && \
  mkdir -p \
 	/opt/ombi && \
