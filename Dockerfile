@@ -37,3 +37,5 @@ COPY /root /
 
 # ports and volumes
 EXPOSE 3579
+
+ENTRYPOINT ["./Ombi"]
